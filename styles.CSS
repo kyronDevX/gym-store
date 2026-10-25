@@ -10,6 +10,7 @@ body {
 
 
 /* 2. Encabezado */
+
 header {
     background-color: #1c1c1c;
     color: white;
@@ -17,6 +18,7 @@ header {
     text-align: center;
     border-bottom: 3px solid #78e000;
 }
+
 
 
 /* 3. Enlaces del menú */
@@ -32,21 +34,32 @@ main {
 }
 
 /* 5. Tarjetas de productos */
+
 article {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 16px;
-    border-radius: 12px;
+    background-color: #202020;
+    color: white;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    border: 1px solid #333333;
 }
 
 /* 6. Botones */
+
 button {
     background-color: #78e000;
-    color: #151515;
-    padding: 12px 18px;
+    color: #111111;
+    padding: 12px 20px;
     border: none;
     border-radius: 8px;
+    font-weight: bold;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #9aff35;
+    transform: scale(1.04);
 }
 
 /* 7. Efecto al pasar el cursor */
