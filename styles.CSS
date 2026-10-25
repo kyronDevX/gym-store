@@ -1,0 +1,51 @@
+
+/* 1. Estilos generales de toda la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+    margin: 0;
+}
+
+/* 2. Encabezado */
+header {
+    background-color: #202020;
+    color: white;
+    padding: 24px;
+    text-align: center;
+}
+
+/* 3. Enlaces del menú */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* 4. Espacio alrededor del contenido */
+main {
+    padding: 24px;
+}
+
+/* 5. Tarjetas de productos */
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+}
+
+/* 6. Botones */
+button {
+    background-color: #78e000;
+    color: #151515;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* 7. Efecto al pasar el cursor */
+button:hover {
+    background-color: #5eae00;
+}
