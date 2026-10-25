@@ -104,3 +104,11 @@ article {
         grid-template-columns: 1fr;
     }
 }
+
+article img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 16px;
+}
