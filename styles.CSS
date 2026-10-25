@@ -151,3 +151,46 @@ article img {
         grid-template-columns: 1fr;
     }
 }
+
+/* Animación suave de las tarjetas */
+#productos article {
+    transition: transform 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* La tarjeta se eleva al pasar el mouse */
+#productos article:hover {
+    transform: translateY(-8px);
+    border-color: #78e000;
+    box-shadow: 0 10px 25px rgba(120, 224, 0, 0.12);
+}
+
+/* Zoom suave en las imágenes */
+#productos article img {
+    transition: transform 0.3s ease;
+}
+
+/* La imagen crece ligeramente */
+#productos article:hover img {
+    transform: scale(1.06);
+}
+
+/* Animación de los botones */
+#productos article button {
+    transition: transform 0.2s ease,
+                background-color 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+/* Efecto verde al pasar el mouse */
+#productos article button:hover {
+    background-color: #9aff35;
+    transform: scale(1.05);
+    box-shadow: 0 0 14px rgba(120, 224, 0, 0.4);
+}
+
+/* Efecto al presionar el botón */
+#productos article button:active {
+    transform: scale(0.97);
+}
